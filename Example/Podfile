@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MSDebugTool_Example' do
+  pod 'MSDebugTool', :path => '../'
+
+  target 'MSDebugTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
