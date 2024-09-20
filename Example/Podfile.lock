@@ -1,0 +1,18 @@
+PODS:
+  - MSDebugTool (0.1.0):
+    - MSDebugTool/AccessibilityInspector (= 0.1.0)
+  - MSDebugTool/AccessibilityInspector (0.1.0)
+
+DEPENDENCIES:
+  - MSDebugTool (from `../`)
+
+EXTERNAL SOURCES:
+  MSDebugTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSDebugTool: bcb5c4a57e7644980eed1351993d2f89cd311a9f
+
+PODFILE CHECKSUM: 5c6a5ba36ffcadaf5f39eacfe2af7687791e64dd
+
+COCOAPODS: 1.15.2

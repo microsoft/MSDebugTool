@@ -1,0 +1,31 @@
+{
+  "name": "MSDebugTool",
+  "version": "0.1.0",
+  "summary": "A short description of MSDebugTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/divyamittal528/MSDebugTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "divyamittal528": "dimittal@microsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/microsoft/MSDebugTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "MSDebugTool/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "AccessibilityInspector",
+      "source_files": "Sources/AccessibilityInspector**/*",
+      "platforms": {
+        "ios": "15.0"
+      }
+    }
+  ]
+}

@@ -24,13 +24,18 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/divyamittal528/MSDebugTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'divyamittal528' => '125539026+DivyaMittal528@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/divyamittal528/MSDebugTool.git', :tag => s.version.to_s }
+  s.author           = { 'divyamittal528' => 'dimittal@microsoft.com' }
+  s.source           = { :git => 'https://github.com/microsoft/MSDebugTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'MSDebugTool/Classes/**/*'
+
+  s.subspec 'AccessibilityInspector' do |ss|
+    ss.source_files = 'Sources/AccessibilityInspector**/*'
+    ss.ios.deployment_target = '15.0'
+  end
   
   # s.resource_bundles = {
   #   'MSDebugTool' => ['MSDebugTool/Assets/*.png']
