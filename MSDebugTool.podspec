@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '15.0'
 
-  s.source_files = 'MSDebugTool/Classes/**/*'
+  s.source_files = 'Sources/**/*'
 
   s.subspec 'AccessibilityInspector' do |ss|
     ss.source_files = 'Sources/AccessibilityInspector**/*'
